@@ -14,7 +14,7 @@ let products = [
     {'id':9, 'prod':'Bag', 'price':'$600'},
 
 
-]
+];
 router.get('/prods', (req, res)=>
 {
     res.json(products)
